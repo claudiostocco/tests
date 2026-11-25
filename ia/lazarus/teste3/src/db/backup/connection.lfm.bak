@@ -1,0 +1,107 @@
+object dmConn: TdmConn
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 262
+  HorizontalOffset = 301
+  VerticalOffset = 250
+  Width = 309
+  object ZConnection: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings=ON'
+      'controls_cp=CP_UTF8'
+      'codepage='
+      'RawStringEncoding=DB_CP'
+    )
+    DisableSavepoints = False
+    Port = 0
+    User = 'sysdba'
+    Password = 'pfglessa'
+    Protocol = 'firebird'
+    Left = 56
+    Top = 24
+  end
+  object ZQuery1: TZQuery
+    Connection = ZConnection
+    SQL.Strings = (
+      'SELECT * FROM usuario'
+    )
+    Params = <>
+    Left = 136
+    Top = 24
+    object ZQuery1id: TStringField
+      FieldKind = fkData
+      FieldName = 'id'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+      Size = 15
+    end
+    object ZQuery1senha: TStringField
+      FieldKind = fkData
+      FieldName = 'senha'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = True
+      Size = 15
+    end
+    object ZQuery1supervisor: TStringField
+      FieldKind = fkData
+      FieldName = 'supervisor'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 1
+    end
+    object ZQuery1ucliente: TStringField
+      FieldKind = fkData
+      FieldName = 'ucliente'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 1
+    end
+  end
+  object IBConnection: TIBConnection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = '127.0.0.1:cadcli'
+    KeepConnection = False
+    Password = 'pfglessa'
+    UserName = 'sysdba'
+    CheckTransactionParams = False
+    UseConnectionCharSetIfNone = False
+    Left = 56
+    Top = 104
+  end
+  object PQConnection: TPQConnection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = '127.0.0.1:5432/cadcli'
+    KeepConnection = False
+    Password = '123456'
+    UserName = 'postgres'
+    Left = 56
+    Top = 180
+  end
+  object SQLQuery1: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    Macros = <>
+    Left = 210
+    Top = 143
+  end
+  object ZUpdateSQL1: TZUpdateSQL
+    UseSequenceFieldForRefreshSQL = False
+    Left = 216
+    Top = 24
+  end
+end

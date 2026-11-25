@@ -1,0 +1,13 @@
+Para um sistema com as funcionalidades abaixo qual a melhor linguagem de programação?
+Gere um arquivo de especificações para o desenvolvimento nesta linguagem.
+
+# Objetivo
+
+Sistema para ler o PDF da revista RPI e buscar por um número de processo.
+
+## Funcionalidades
+
+1 - Ao iniciar a aplicação perguntar o número do processo para busca na revista.
+2 - Na sequêcia perguntar se vai pesquisar em uma pasta com os PDFs ou se vai buscar pela url da revista.
+3 - Se for buscar numa pasta, pedir para indicar a pasta e proceder a varedura com todos os PDFs que estiverem na pasta. Se for buscar pela URL, pedir a URL, baixar o PDF e proceder a varredura neste arquivo.
+4 - Se encontrar o processo mestrar a pagina e um trecho do texto onde se encontrar o número do processo.

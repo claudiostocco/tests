@@ -1,0 +1,56 @@
+object dmProdutoService: TdmProdutoService
+  OldCreateOrder = False
+  Height = 186
+  HorizontalOffset = 289
+  VerticalOffset = 250
+  Width = 388
+  object ZConnection: TZConnection
+    ControlsCodePage = cCP_UTF8
+    DisableSavepoints = False
+    Port = 0
+    Left = 48
+    Top = 16
+  end
+  object Query: TZQuery
+    Connection = ZConnection
+    Params = <>
+    Left = 48
+    Top = 72
+  end
+  object precos: TZQuery
+    Connection = ZConnection
+    SQL.Strings = (
+      'SELECT CURRENT_CONNECTION, ID, EMPRESAID, CUSTO, PRECO, PRECOPROMOCAO, PROMOCAODE, PROMOCAOATE FROM PRODUTOPRECO'
+    )
+    Params = <>
+    MasterSource = DataSource
+    Left = 144
+    Top = 16
+  end
+  object icms: TZQuery
+    Connection = ZConnection
+    SQL.Strings = (
+      'SELECT CURRENT_CONNECTION, ID, EMPRESAID, ICMSID, (SELECT DESCRICAO FROM ICMS WHERE ID = PRODUTOICMS.ICMSID) AS ICMSDESCRICAO '
+      'FROM PRODUTOICMS '
+    )
+    Params = <>
+    MasterSource = DataSource
+    Left = 208
+    Top = 16
+  end
+  object piscofins: TZQuery
+    Connection = ZConnection
+    SQL.Strings = (
+      'SELECT CURRENT_CONNECTION, ID, EMPRESAID, CSTCOFINSID, CSTPISID, CSTCOFINSIDENT, CSTPISIDENT FROM PRODUTOPISCOFINS '
+    )
+    Params = <>
+    MasterSource = DataSource
+    Left = 272
+    Top = 16
+  end
+  object DataSource: TDataSource
+    AutoEdit = False
+    Left = 144
+    Top = 72
+  end
+end

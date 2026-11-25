@@ -1,0 +1,51 @@
+object dmConn: TdmConn
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 330
+  HorizontalOffset = 301
+  VerticalOffset = 250
+  Width = 309
+  object ZConnection: TZConnection
+    ControlsCodePage = cCP_UTF8
+    Properties.Strings = (
+      'AutoEncodeStrings=ON'
+      'controls_cp=CP_UTF8'
+      'codepage='
+      'RawStringEncoding=DB_CP'
+    )
+    DisableSavepoints = False
+    Port = 0
+    User = 'sysdba'
+    Password = 'pfglessa'
+    Protocol = 'firebird'
+    Left = 56
+    Top = 24
+  end
+  object IBConnection: TIBConnection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = '127.0.0.1:cadcli'
+    KeepConnection = False
+    Password = 'pfglessa'
+    UserName = 'sysdba'
+    CheckTransactionParams = False
+    UseConnectionCharSetIfNone = False
+    Left = 56
+    Top = 104
+  end
+  object PQConnection: TPQConnection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = '127.0.0.1:5432/cadcli'
+    KeepConnection = False
+    Password = '123456'
+    UserName = 'postgres'
+    Left = 56
+    Top = 180
+  end
+  object UConnection: TUniConnection
+    LoginPrompt = False
+    Left = 56
+    Top = 256
+  end
+end

@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="sgtapi.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="71"/>
+        <CursorPos Y="103"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="150"/>
+        <CursorPos Y="161"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.routes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="23" Y="30"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="connectors/connector.factory.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="43" Y="11"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="connectors/connector.sqldb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="connectors/connector.zeos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="81"/>
+        <CursorPos Y="104"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="adapters/adapter.query.intf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="92" Y="47"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="adapters/adapter.query.impl.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="559"/>
+        <CursorPos Y="582"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="constants/constants.common.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="db/connection.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmConn"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="5"/>
+        <CursorPos X="23" Y="27"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="db/dbcomponent.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <CursorPos X="4" Y="7"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="3" Y="90"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.usuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="99"/>
+        <CursorPos Y="127"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.root.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="128" Y="33"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="security/CredentialClaims.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="132"/>
+        <CursorPos Y="151"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="security/JWT.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="70"/>
+        <CursorPos Y="88"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.auth.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="69"/>
+        <CursorPos X="29" Y="69"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.serviceprovider.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="service.ServiceProvider"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="191"/>
+        <CursorPos Y="208"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.auth.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="45"/>
+        <CursorPos X="62" Y="61"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="connectors/connector.configuration.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="47"/>
+        <CursorPos Y="67"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="security/cipherdata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="CipherData"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.session.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="61"/>
+        <CursorPos Y="64"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="adapters/adapter.json.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="72"/>
+        <CursorPos Y="100"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.entidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <CursorPos Y="110"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.entidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="109"/>
+        <CursorPos X="49" Y="127"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.empresa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="35" Y="76"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.empresa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="77"/>
+        <CursorPos Y="112"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.cfg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos Y="50"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.estado.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="31" Y="57"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.cfg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos X="9" Y="100"/>
+        <UsageCount Value="202"/>
+        <Bookmarks Count="1">
+          <Item0 X="42" Y="39" ID="1"/>
+        </Bookmarks>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.estado.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos Y="62"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.municipio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="35" Y="93"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.municipio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="50"/>
+        <CursorPos X="28" Y="50"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.tabela.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="35"/>
+        <CursorPos X="31" Y="58"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.serviceprovidercadastros.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="service.ServiceProviderCadastros"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos Y="51"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.tabela.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="11"/>
+        <CursorPos X="11" Y="28"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.cfop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="31" Y="83"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.cfop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39"/>
+        <CursorPos Y="98"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.commons.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="4"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.unidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="91"/>
+        <CursorPos X="5" Y="124"/>
+        <UsageCount Value="224"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.unidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="59" Y="63"/>
+        <UsageCount Value="211"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.produtoorigem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="31" Y="65"/>
+        <UsageCount Value="208"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.icms.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos Y="87"/>
+        <UsageCount Value="205"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.setor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="93"/>
+        <CursorPos X="36" Y="118"/>
+        <UsageCount Value="205"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.produto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="249"/>
+        <CursorPos X="141" Y="249"/>
+        <UsageCount Value="205"/>
+        <Bookmarks Count="1">
+          <Item0 Y="232" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.icms.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="5" Y="124"/>
+        <UsageCount Value="203"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.produtoorigem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="88"/>
+        <CursorPos Y="116"/>
+        <UsageCount Value="203"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.setor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="90"/>
+        <CursorPos X="43" Y="96"/>
+        <UsageCount Value="203"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.produto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="122"/>
+        <CursorPos X="16" Y="143"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.produto.dm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmProdutoService"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="156"/>
+        <CursorPos X="5" Y="192"/>
+        <UsageCount Value="202"/>
+        <Bookmarks Count="1">
+          <Item0 Y="219" ID="1"/>
+        </Bookmarks>
+      </Unit>
+      <Unit>
+        <Filename Value="system.config.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="33" Y="56"/>
+        <UsageCount Value="201"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.modalidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="51"/>
+        <CursorPos X="61" Y="64"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.cpgto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="113" Y="34"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.movimento.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="17" Y="48"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.movvenda.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.movitem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="63"/>
+        <CursorPos X="3" Y="88"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.movpagamento.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="26"/>
+        <CursorPos Y="36"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.modalidade.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="71" Y="18"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.cpgto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.movimento.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="16" Y="48"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.movvenda.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.movitem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.movpagamento.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="38" Y="96"/>
+        <UsageCount Value="209"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils/request.logger.manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Request.Logger.Manager"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="4" Y="37"/>
+        <UsageCount Value="206"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils/logfile.logger.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="11" Y="13"/>
+        <UsageCount Value="203"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.estoque.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="99"/>
+        <CursorPos X="33" Y="182"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="1">
+          <Item0 X="60" Y="204" ID="1"/>
+        </Bookmarks>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.estoque.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="55" Y="111"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils/utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos Y="42"/>
+        <UsageCount Value="200"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils/utils.parsejsontosql.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="127"/>
+        <UsageCount Value="206"/>
+      </Unit>
+      <Unit>
+        <Filename Value="services/service.naturezaop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="193"/>
+      </Unit>
+      <Unit>
+        <Filename Value="controllers/controller.naturezaop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="192"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils/utils.sqlvalues.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="138"/>
+      </Unit>
+      <Unit>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="104"/>
+        <CursorPos Y="112"/>
+        <UsageCount Value="138"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value=".modules/handle-exception/src/Horse.HandleException.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="38" Y="47"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value=".modules/horse-logger/src/Horse.Logger.Thread.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="14" Y="57"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/rtl-generics/src/generics.collections.pas"/>
+        <UnitName Value="Generics.Collections"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value=".modules/horse-logger-provider-logfile/src/Horse.Logger.Provider.LogFile.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="20" Y="34"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="240"/>
+        <CursorPos X="20" Y="256"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/inc/objpas.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1021"/>
+        <CursorPos X="11" Y="1029"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value=".modules/horse/src/Horse.Request.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos Y="73"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value=".modules/horse-jwt/src/Horse.JWT.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="174"/>
+        <CursorPos X="14" Y="81"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/plain/ZPlainFirebird.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4101"/>
+        <CursorPos X="73" Y="4115"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/fcl-json/src/fpjson.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3085"/>
+        <CursorPos X="3" Y="3088"/>
+        <UsageCount Value="1"/>
+      </Unit>
+      <Unit>
+        <Filename Value=".modules/horse/src/Horse.Core.Param.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="196"/>
+        <CursorPos Y="218"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/unix/classes.pp"/>
+        <UnitName Value="Classes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/unix/sysutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/unix/syscall.pp"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/linux/x86_64/syscallh.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/objpas/rtlconsts.pp"/>
+        <UnitName Value="RtlConsts"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/objpas/rtlconst.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/objpas/types.pp"/>
+        <UnitName Value="Types"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="157"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/objpas/typinfo.pp"/>
+        <UnitName Value="TypInfo"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/rtl-generics/src/generics.helpers.pas"/>
+        <UnitName Value="Generics.Helpers"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/rtl/objpas/sysutils/syshelph.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="501"/>
+        <CursorPos X="14" Y="527"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/dbc/ZDbcFirebirdInterbase.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2025"/>
+        <CursorPos Y="2042"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../easy/easyCheckout/api/src/connectors/connector.configuration.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="97"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../easy/easyCheckout/api/src/services/service.serviceprovider.pas"/>
+        <UnitName Value="service.ServiceProvider"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="211"/>
+        <CursorPos Y="228"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../easy/easyCheckout/api/src/utils/utils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
+        <CursorPos Y="128"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../easy/easyCheckout/api/src/services/service.serviceprovidercadastros.pas"/>
+        <UnitName Value="service.ServiceProviderCadastros"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../components/UniDAC/Source/DBAccess.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1392"/>
+        <CursorPos X="3" Y="1411"/>
+        <UsageCount Value="35"/>
+        <Bookmarks Count="1">
+          <Item0 X="3" Y="11557" ID="5"/>
+        </Bookmarks>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../components/UniDAC/Source/Uni.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="694"/>
+        <CursorPos X="14" Y="712"/>
+        <UsageCount Value="35"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../components/UniDAC/Source/MemDS.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2804"/>
+        <CursorPos X="15" Y="2809"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/fcl-db/src/base/db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="95"/>
+        <CursorPos X="46" Y="109"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/fpcsrc/3.2.2/packages/fcl-db/src/base/dataset.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1910"/>
+        <CursorPos X="5" Y="1913"/>
+        <UsageCount Value="1"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZConnection.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZDataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="63"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZAbstractDataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="868"/>
+        <CursorPos X="38" Y="895"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../.lazarus/onlinepackagemanager/packages/zeosdbo/src/component/ZAbstractRODataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2024"/>
+        <CursorPos X="45" Y="2041"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../components/UniDAC/Source/CRAccess.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6546"/>
+        <CursorPos X="33" Y="6575"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/share/lazarus/3.2.0/lcl/lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5343"/>
+        <CursorPos Y="5361"/>
+        <UsageCount Value="3"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="db/connection.pas"/>
+        <Caret Line="27" Column="23" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="119" Column="5" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="services/service.setor.pas"/>
+        <Caret Line="118" Column="36" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="adapters/adapter.query.impl.pas"/>
+        <Caret Line="155" TopLine="130"/>
+      </Position>
+      <Position>
+        <Filename Value="adapters/adapter.query.impl.pas"/>
+        <Caret Line="156" TopLine="130"/>
+      </Position>
+      <Position>
+        <Filename Value="adapters/adapter.query.impl.pas"/>
+        <Caret Line="160" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="adapters/adapter.query.impl.pas"/>
+        <Caret Line="161" TopLine="132"/>
+      </Position>
+      <Position>
+        <Filename Value="adapters/adapter.query.impl.pas"/>
+        <Caret Line="162" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="110" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="111" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="112" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="114" Column="82" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="adapters/adapter.query.impl.pas"/>
+        <Caret Line="155" TopLine="133"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="110" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="111" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="112" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="114" Column="83" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="110" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="111" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="112" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="114" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="115" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="117" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="118" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="119" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="120" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="121" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="110" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="connectors/connector.unidac.pas"/>
+        <Caret Line="121" TopLine="94"/>
+      </Position>
+      <Position>
+        <Filename Value="sgtapi.lpr"/>
+        <Caret Line="68" TopLine="33"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="adapters/adapter.query.impl.pas"/>
+        <Line Value="346"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="controllers/controller.movimento.pas"/>
+        <Line Value="89"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="connectors/connector.unidac.pas"/>
+        <Line Value="110"/>
+      </Item>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="connectors/connector.unidac.pas"/>
+        <Line Value="121"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
