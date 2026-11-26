@@ -5,5 +5,7 @@
     "where": [],
     "group": [],
     "order": [],
-    "having": ""
+    "having": [],
+    "page_sise": 0,
+    "page": 0
 }
